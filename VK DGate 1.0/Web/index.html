@@ -129,6 +129,36 @@
 				<!--<a href="#" class="btnghost"><i class="fa fa-download btn-1"></i> Паша Дуров</a> -->
 				<img class="image-1" hidden>
 				<div class="btn-1">PASHA</div>
+				<!-- SEARCH BAR-->
+				<form name="search">
+				<input type="text", name="key", size=50px/>
+				</form>
+				<div id="printBlock"></div>
+			
+				<script>
+					
+				function msg (text){
+					$.ajax({
+						  method: "GET",
+						  data:text,
+						  url: "http://localhost:8080",
+						});
+					//alert (text);
+				};	
+					
+				var keyBox = document.search.key;
+					function onchange(e){
+						// получаем элемент printBlock
+						var printBlock = document.getElementById("printBlock");
+						// получаем новое значение
+						var val = e.target.value;
+						// установка значения
+						//printBlock.textContent = val;
+						msg(val);		
+					}
+					
+					keyBox.addEventListener("change", onchange);
+				</script>
 			</p>
 		</div>
 	</div>
