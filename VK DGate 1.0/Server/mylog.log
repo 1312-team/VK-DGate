@@ -1,0 +1,363 @@
+DEBUG    [2017-12-28 07:05:52,484] The Server was launched
+DEBUG    [2017-12-28 07:08:08,846] The Server was launched
+CRITICAL [2017-12-28 07:08:08,846] FATAL!!!
+DEBUG    [2017-12-28 07:16:33,466] The Server was launched
+DEBUG    [2017-12-28 07:19:48,114] The Server was launched
+INFO     [2017-12-28 07:20:05,122] added None and to get
+DEBUG    [2017-12-28 07:22:01,214] The Server was launched
+INFO     [2017-12-28 07:22:11,460] added /?Need-photo-durov222 and to get
+INFO     [2017-12-28 07:22:44,333] added /?Need-photo-durov222 and to get
+DEBUG    [2017-12-28 07:31:45,399] The Server was launched
+INFO     [2017-12-28 07:31:53,999] added /?Need-photo-durov222 and to get
+DEBUG    [2017-12-28 07:34:48,516] _______________________
+DEBUG    [2017-12-28 07:34:48,517] The Server was launched
+DEBUG    [2017-12-28 07:34:48,517] _______________________
+INFO     [2017-12-28 07:35:02,039] added /?Need-photo-durov222 and to get
+INFO     [2017-12-28 07:35:02,039] added <socket._fileobject object at 0x10ae55f50> and to get
+DEBUG    [2017-12-28 07:36:32,747] _______________________
+DEBUG    [2017-12-28 07:36:32,748] The Server was launched
+DEBUG    [2017-12-28 07:36:32,748] _______________________
+INFO     [2017-12-28 07:36:52,504] added /?Need-photo-durov222 and to get
+INFO     [2017-12-28 07:36:52,504] added GET and to get
+DEBUG    [2017-12-28 07:37:45,236] _______________________
+DEBUG    [2017-12-28 07:37:45,237] The Server was launched
+DEBUG    [2017-12-28 07:37:45,237] _______________________
+INFO     [2017-12-28 07:37:52,093] added /?Need-photo-durov222 and to get
+INFO     [2017-12-28 07:37:52,095] added <bound method HttpProcessor.send_response of <__main__.HttpProcessor instance at 0x104a56950>> and to get
+DEBUG    [2017-12-28 07:38:55,450] _______________________
+DEBUG    [2017-12-28 07:38:55,451] The Server was launched
+DEBUG    [2017-12-28 07:38:55,451] _______________________
+INFO     [2017-12-28 07:39:08,702] added None and to get
+INFO     [2017-12-28 07:39:08,702] added /?Need-photo-durov222 and to get
+INFO     [2017-12-28 07:39:32,846] added None and to get
+INFO     [2017-12-28 07:39:32,846] added /?Need-photo-durov222 and to get
+DEBUG    [2017-12-28 07:46:13,185] _______________________
+DEBUG    [2017-12-28 07:46:13,186] The Server was launched
+DEBUG    [2017-12-28 07:46:13,186] _______________________
+INFO     [2017-12-28 07:46:23,632] added <bound method HttpProcessor.log_request of <__main__.HttpProcessor instance at 0x10dd17950>> and to get
+INFO     [2017-12-28 07:46:23,632] added /?Need-photo-durov222 and to get
+INFO     [2017-12-28 07:46:43,592] added <bound method HttpProcessor.log_request of <__main__.HttpProcessor instance at 0x10dd17950>> and to get
+INFO     [2017-12-28 07:46:43,592] added /?Need-photo-durov222 and to get
+DEBUG    [2017-12-28 07:49:14,289] _______________________
+DEBUG    [2017-12-28 07:49:14,290] The Server was launched
+DEBUG    [2017-12-28 07:49:14,290] _______________________
+INFO     [2017-12-28 07:49:19,546] GET request,
+Path: /?Need-photo-durov222
+Headers:
+Host: localhost:8080
+Connection: keep-alive
+Accept: */*
+Origin: null
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+DEBUG    [2017-12-28 07:51:20,565] _______________________
+DEBUG    [2017-12-28 07:51:20,566] The Server was launched
+DEBUG    [2017-12-28 07:51:20,566] _______________________
+INFO     [2017-12-28 07:51:28,018] GET REQUEST
+Path: /?Need-photo-durov222
+Headers:
+Host: localhost:8080
+Connection: keep-alive
+Accept: */*
+Origin: null
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+DEBUG    [2017-12-28 07:54:55,763] _______________________
+DEBUG    [2017-12-28 07:54:55,764] The Server was launched
+DEBUG    [2017-12-28 07:54:55,764] _______________________
+DEBUG    [2017-12-28 07:55:16,338] _______________________
+DEBUG    [2017-12-28 07:55:16,338] The Server was launched
+DEBUG    [2017-12-28 07:55:16,338] _______________________
+INFO     [2017-12-28 07:55:22,401] GET REQUEST
+Path: /?Need-photo-durov222
+Headers:
+Host: localhost:8080
+Connection: keep-alive
+Accept: */*
+Origin: null
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+INFO     [2017-12-28 07:56:47,115] Server was cloed...
+DEBUG    [2017-12-28 07:59:11,052] 
+
+
+DEBUG    [2017-12-28 07:59:11,053] _______________________
+DEBUG    [2017-12-28 07:59:11,053] The Server was launched
+DEBUG    [2017-12-28 07:59:11,053] _______________________
+INFO     [2017-12-28 07:59:22,845] GET REQUEST
+Path: /?Need-photo-durov222
+Headers:
+Host: localhost:8080
+Connection: keep-alive
+Accept: */*
+Origin: null
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+INFO     [2017-12-28 07:59:23,470] GET REQUEST
+Path: /?Need-photo-durov222
+Headers:
+Host: localhost:8080
+Connection: keep-alive
+Accept: */*
+Origin: null
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+INFO     [2017-12-28 07:59:38,614] _______________________
+INFO     [2017-12-28 07:59:38,614]   Server was closed..  
+INFO     [2017-12-28 07:59:38,615] _______________________
+DEBUG    [2017-12-28 08:00:17,946] 
+
+
+DEBUG    [2017-12-28 08:00:17,946] _______________________
+DEBUG    [2017-12-28 08:00:17,946] The Server was launched
+DEBUG    [2017-12-28 08:00:17,946] _______________________
+INFO     [2017-12-28 08:00:22,505] GET REQUEST
+Path: /?Need-photo-durov222
+Headers:
+Host: localhost:8080
+Connection: keep-alive
+Accept: */*
+Origin: null
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+INFO     [2017-12-28 08:00:22,507] -------------------------------------------------------
+INFO     [2017-12-28 08:01:30,454] _______________________
+INFO     [2017-12-28 08:01:30,455]   Server was closed..  
+INFO     [2017-12-28 08:01:30,455] _______________________
+DEBUG    [2017-12-28 08:01:34,002] 
+
+
+DEBUG    [2017-12-28 08:01:34,002] _______________________
+DEBUG    [2017-12-28 08:01:34,002] The Server was launched
+DEBUG    [2017-12-28 08:01:34,002] _______________________
+INFO     [2017-12-28 08:01:39,142] GET REQUEST
+Path: /?Need-photo-durov222
+Headers:
+Host: localhost:8080
+Connection: keep-alive
+Accept: */*
+Origin: null
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+INFO     [2017-12-28 08:01:39,646] GET REQUEST
+Path: /?Need-photo-durov222
+Headers:
+Host: localhost:8080
+Connection: keep-alive
+Accept: */*
+Origin: null
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+INFO     [2017-12-28 08:01:43,388] _______________________
+INFO     [2017-12-28 08:01:43,388]   Server was closed..  
+INFO     [2017-12-28 08:01:43,389] _______________________
+DEBUG    [2017-12-28 08:24:43,300] 
+
+
+DEBUG    [2017-12-28 08:24:43,301] _______________________
+DEBUG    [2017-12-28 08:24:43,301] The Server was launched
+DEBUG    [2017-12-28 08:24:43,302] _______________________
+INFO     [2017-12-28 08:25:14,825] GET REQUEST
+Path: /?Need-photo-durov222
+Headers:
+Host: localhost:8080
+Connection: keep-alive
+Accept: */*
+Origin: null
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+DEBUG    [2017-12-28 08:28:57,377] 
+
+
+DEBUG    [2017-12-28 08:28:57,378] _______________________
+DEBUG    [2017-12-28 08:28:57,379] The Server was launched
+DEBUG    [2017-12-28 08:28:57,379] _______________________
+INFO     [2017-12-28 08:29:00,507] _______________________
+INFO     [2017-12-28 08:29:00,507]   Server was closed..  
+INFO     [2017-12-28 08:29:00,507] _______________________
+DEBUG    [2017-12-28 08:33:13,496] 
+
+
+DEBUG    [2017-12-28 08:33:13,497] _______________________
+DEBUG    [2017-12-28 08:33:13,497] The Server was launched
+DEBUG    [2017-12-28 08:33:13,497] _______________________
+INFO     [2017-12-28 08:34:04,438] _______________________
+INFO     [2017-12-28 08:34:04,439]   Server was closed..  
+INFO     [2017-12-28 08:34:04,439] _______________________
+DEBUG    [2017-12-28 08:34:04,605] 
+
+
+DEBUG    [2017-12-28 08:34:04,606] _______________________
+DEBUG    [2017-12-28 08:34:04,606] The Server was launched
+DEBUG    [2017-12-28 08:34:04,606] _______________________
+DEBUG    [2017-12-28 08:35:06,228] 
+
+
+DEBUG    [2017-12-28 08:35:06,229] _______________________
+DEBUG    [2017-12-28 08:35:06,229] The Server was launched
+DEBUG    [2017-12-28 08:35:06,229] _______________________
+INFO     [2017-12-28 08:35:12,240] _______________________
+INFO     [2017-12-28 08:35:12,240]   Server was closed..  
+INFO     [2017-12-28 08:35:12,240] _______________________
+DEBUG    [2017-12-28 08:35:12,316] 
+
+
+DEBUG    [2017-12-28 08:35:12,316] _______________________
+DEBUG    [2017-12-28 08:35:12,316] The Server was launched
+DEBUG    [2017-12-28 08:35:12,316] _______________________
+INFO     [2017-12-28 08:35:13,375] _______________________
+INFO     [2017-12-28 08:35:13,375]   Server was closed..  
+INFO     [2017-12-28 08:35:13,375] _______________________
+DEBUG    [2017-12-28 08:35:13,452] 
+
+
+DEBUG    [2017-12-28 08:35:13,452] _______________________
+DEBUG    [2017-12-28 08:35:13,452] The Server was launched
+DEBUG    [2017-12-28 08:35:13,452] _______________________
+INFO     [2017-12-28 08:35:14,186] _______________________
+INFO     [2017-12-28 08:35:14,186]   Server was closed..  
+INFO     [2017-12-28 08:35:14,186] _______________________
+DEBUG    [2017-12-28 08:35:14,263] 
+
+
+DEBUG    [2017-12-28 08:35:14,264] _______________________
+DEBUG    [2017-12-28 08:35:14,264] The Server was launched
+DEBUG    [2017-12-28 08:35:14,264] _______________________
+INFO     [2017-12-28 08:35:14,863] _______________________
+INFO     [2017-12-28 08:35:14,863]   Server was closed..  
+INFO     [2017-12-28 08:35:14,863] _______________________
+DEBUG    [2017-12-28 08:35:14,939] 
+
+
+DEBUG    [2017-12-28 08:35:14,940] _______________________
+DEBUG    [2017-12-28 08:35:14,940] The Server was launched
+DEBUG    [2017-12-28 08:35:14,940] _______________________
+INFO     [2017-12-28 08:35:15,504] _______________________
+INFO     [2017-12-28 08:35:15,505]   Server was closed..  
+INFO     [2017-12-28 08:35:15,505] _______________________
+DEBUG    [2017-12-28 08:35:15,585] 
+
+
+DEBUG    [2017-12-28 08:35:15,586] _______________________
+DEBUG    [2017-12-28 08:35:15,586] The Server was launched
+DEBUG    [2017-12-28 08:35:15,586] _______________________
+INFO     [2017-12-28 08:35:16,133] _______________________
+INFO     [2017-12-28 08:35:16,133]   Server was closed..  
+INFO     [2017-12-28 08:35:16,133] _______________________
+DEBUG    [2017-12-28 08:35:16,209] 
+
+
+DEBUG    [2017-12-28 08:35:16,210] _______________________
+DEBUG    [2017-12-28 08:35:16,210] The Server was launched
+DEBUG    [2017-12-28 08:35:16,210] _______________________
+INFO     [2017-12-28 08:35:16,850] _______________________
+INFO     [2017-12-28 08:35:16,850]   Server was closed..  
+INFO     [2017-12-28 08:35:16,850] _______________________
+DEBUG    [2017-12-28 08:35:16,928] 
+
+
+DEBUG    [2017-12-28 08:35:16,929] _______________________
+DEBUG    [2017-12-28 08:35:16,929] The Server was launched
+DEBUG    [2017-12-28 08:35:16,929] _______________________
+INFO     [2017-12-28 08:35:17,499] _______________________
+INFO     [2017-12-28 08:35:17,500]   Server was closed..  
+INFO     [2017-12-28 08:35:17,500] _______________________
+DEBUG    [2017-12-28 08:35:17,576] 
+
+
+DEBUG    [2017-12-28 08:35:17,576] _______________________
+DEBUG    [2017-12-28 08:35:17,576] The Server was launched
+DEBUG    [2017-12-28 08:35:17,576] _______________________
+INFO     [2017-12-28 08:35:17,950] _______________________
+INFO     [2017-12-28 08:35:17,950]   Server was closed..  
+INFO     [2017-12-28 08:35:17,950] _______________________
+DEBUG    [2017-12-28 08:35:18,024] 
+
+
+DEBUG    [2017-12-28 08:35:18,025] _______________________
+DEBUG    [2017-12-28 08:35:18,025] The Server was launched
+DEBUG    [2017-12-28 08:35:18,025] _______________________
+INFO     [2017-12-28 08:35:18,411] _______________________
+INFO     [2017-12-28 08:35:18,411]   Server was closed..  
+INFO     [2017-12-28 08:35:18,411] _______________________
+DEBUG    [2017-12-28 08:39:09,184] 
+
+
+DEBUG    [2017-12-28 08:39:09,184] _______________________
+DEBUG    [2017-12-28 08:39:09,184] The Server was launched
+DEBUG    [2017-12-28 08:39:09,184] _______________________
+INFO     [2017-12-28 08:39:16,424] GET REQUEST
+Path: /?Need-photo-durov222
+Headers:
+Host: localhost:8080
+Connection: keep-alive
+Accept: */*
+Origin: null
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+INFO     [2017-12-28 08:39:28,155] _______________________
+INFO     [2017-12-28 08:39:28,155]   Server was closed..  
+INFO     [2017-12-28 08:39:28,156] _______________________
+DEBUG    [2017-12-28 08:45:07,896] 
+
+
+DEBUG    [2017-12-28 08:45:07,897] _______________________
+DEBUG    [2017-12-28 08:45:07,897] The Server was launched
+DEBUG    [2017-12-28 08:45:07,897] _______________________
+INFO     [2017-12-28 08:45:16,367] GET REQUEST
+Path: /?Need-photo-durov222
+Headers:
+Host: localhost:8080
+Connection: keep-alive
+Accept: */*
+Origin: null
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+INFO     [2017-12-28 08:45:16,619] GET REQUEST
+Path: /?Need-photo-durov222
+Headers:
+Host: localhost:8080
+Connection: keep-alive
+Accept: */*
+Origin: null
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+INFO     [2017-12-28 08:45:49,973] _______________________
+INFO     [2017-12-28 08:45:49,973]   Server was closed..  
+INFO     [2017-12-28 08:45:49,973] _______________________
