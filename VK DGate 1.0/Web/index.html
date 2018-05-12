@@ -1,0 +1,183 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>VK DGate</title>
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/theme.css" rel="stylesheet">
+<!-- Custom Fonts -->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+<!-- Scripts and server connection -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+	$(function(){
+		$(".btn-1").click(function(){
+		$.ajax({
+		  method: "GET",
+		  url: "http://localhost:8080",
+		})
+		  .done(function( photo_url ) {
+			$(".image-1").attr("src", photo_url);
+			$(".image-1").fadeIn();
+		  });
+		});
+	});
+			
+	</script>
+	
+	<!-- VK Button -->
+<style>
+	
+	.btn-1{
+		width: 100px;
+		padding: 13px 12px;
+		background-color: white;
+		font: arial 15pt bold;
+		text-align: center;
+		margin: 20px auto;
+		border-radius: 2px;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	}
+	.btn-1:hover{
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		cursor: pointer;
+	}
+	.image-1{
+		padding: 15px;
+	}
+</style>
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<div class="container">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+		<i class="fa fa-bars"></i>
+		</button>
+		<a class="navbar-brand page-scroll" href="index.html">
+		VK DGate </a>
+	</div>
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+		<ul class="nav navbar-nav">
+			<li>
+			<a href="index.html">Главная страница</a>
+			</li>
+			<li>
+			<a href="about_us.html">О Нас</a>
+			</li>
+			<li>
+			<a href="contact.html">Связаться С Нами</a>
+			</li>
+		</ul>
+	</div>
+	<!-- /.navbar-collapse -->
+</div>
+<!-- /.container -->
+</nav>
+<!-- Intro Header -->
+<header class="intro">
+<div class="intro-body">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h1 class="brand-heading">VK DGate</h1>
+				<p class="intro-text">
+					
+				</p>
+				<a href="#about" class="btn btn-circle page-scroll">
+				<i class="fa fa-angle-double-down animated"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+</header>
+<!-- About Section -->
+<section id="about">
+<div class="container content-section text-center">
+	<div class="row">
+		<h2>Немного о нас</h2>
+		<div class="col-lg-8 col-lg-offset-2">
+			<p>
+				VK DGate - проект, призванный помочь контент криейторам набрать реальную аудиторию, принести прибыль с выкладывания контента в открытый доступ.
+			</p>
+			<p>
+				Что он делает? - это сайт, предоставляющий доступ пользователю к файлу после выполнения нескольких простых действий: сделать репост записи, подписаться на автора и др. (Опционально). 
+			</p>
+			<p>
+				Как он работает для вас? - вы регестрируетесь, создаете новую страницу для загрузки, выбираете, что должен сделать пользователь для получения доступа к файлу, загружаете сам файл (или оставляете ссылку на скачивание) и получаете готовую ссылку.
+			</p>
+			<p>
+				Как он работает для пользователя? - пользователь видит в вашем посте ссылку на скачивание, переходит по ней, выполняет простые действия и получает доступ к файлу.
+			</p>
+			<p>
+				Пример применения? - Вы рисуете шрифты (пишете музыку, создаете видео, фотографируете и т.д.), вам нужна аудитория, которая в будущем будет покупать эти самые шрифты (альбомы, биты, клипы), вы выкладываете пост с превью шрифта, в описании прикладываете ссылку на скачивание через наш ресурс. В итоге пользователь, который заинтересовался в скачивании получает нужный файл, а вы получаете подписчика, возможно заинтересованного в вашем контенте (иначе стал бы он его скачивать?), активность в паблике, расширение аудитории (устанавливая в качестве одного из условий репост) и др. Таким образом идет двусторонняя взаимовыгодная отдача. 
+			</p>
+			<p>
+				<!--<a href="#" class="btnghost"><i class="fa fa-download btn-1"></i> Паша Дуров</a> -->
+				<img class="image-1" hidden>
+				<div class="btn-1">PASHA</div>
+			</p>
+		</div>
+	</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section id="contact">
+<div class="container content-section text-center">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2">
+			<h2>Немного от нас</h2>
+			<p>
+				 В настоящее время проект находится в стадии разработки и нам интересно выслушать любые ваши идеи и пожелания насчет развития проекта, добавления новых возможностей. Для связи с нами вы можете использовать адрес 
+			</p>
+			<p>
+				<i><a href="mailto:vkdgate_team@gmail.com" style="border-bottom:1px dashed #ccc;">vkdgate_team@gmail.com</a></i>
+			</p>
+			<!--<ul class="list-inline banner-social-buttons">
+				<li>
+				<a href="https://twitter.com/wowthemesnet" class="btn btnghost btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a>
+				</li>
+				<li>
+				<a href="https://www.facebook.com/pages/wowthemesnet/562560840468823" class="btn btnghost btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a>
+				</li>
+				<li>
+				<a href="https://plus.google.com/u/0/b/110916582192388695332/110916582192388695332/posts" class="btn btnghost btn-lg"><i class="fa fa-google-plus fa-fw"></i><span class="network-name">Google+</span></a>
+				</li>
+			</ul>
+			-->
+		</div>
+	</div>
+</div>
+</section>
+<!-- Footer -->
+<footer>
+<div class="container text-center">
+	<p class="credits">
+		Copyright &copy; VK DGate team 2018<br/>
+		
+	</p>
+</div>
+</footer>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="js/theme.js"></script>
+</body>
+</html>
