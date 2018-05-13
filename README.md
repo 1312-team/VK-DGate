@@ -23,3 +23,4 @@ VK DGate - проект, призванный помочь контент кри
 
 * **Посудин Константин** - *front* - [kposudin](https://github.com/kposudin)
 * **Федоров Платон** - *back* - [fedorovplaton](https://github.com/fedorovplaton)
+* **Горбатюк Сергей** - *back* - [sergeygorbatyuk171](https://github.com/sergeygorbatyuk171)
