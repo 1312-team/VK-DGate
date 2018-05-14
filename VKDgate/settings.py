@@ -26,7 +26,9 @@ SECRET_KEY = '_t6*&ruosv!-fpvq+p+*8j!uvc37*&jwt+6(8&(3k$i5d0$n%r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'name123-vk-dgate.7e14.starter-us-west-2.openshiftapps.com'
+]
 
 
 # Application definition
