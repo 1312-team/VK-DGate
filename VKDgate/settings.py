@@ -26,7 +26,10 @@ SECRET_KEY = '_t6*&ruosv!-fpvq+p+*8j!uvc37*&jwt+6(8&(3k$i5d0$n%r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '192.168.0.100',
+    'vkdgate.ddns.net'
+]
 
 
 # Application definition
@@ -38,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'main'
+    'main',
+    'myauth'
 ]
 
 MIDDLEWARE = [
