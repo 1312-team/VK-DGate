@@ -27,6 +27,7 @@ SECRET_KEY = '_t6*&ruosv!-fpvq+p+*8j!uvc37*&jwt+6(8&(3k$i5d0$n%r'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    '127.0.0.1',
     'name123-vk-dgate.7e14.starter-us-west-2.openshiftapps.com'
 ]
 
