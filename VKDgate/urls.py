@@ -17,8 +17,12 @@ from django.contrib import admin
 from django.urls import path
 from main.views import *
 
+admin.autodiscover()
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('about/', about),
-    path('index/', index)
+    path('index/', index),
+    path('new_dgate/', new_dgate),
+    path('thanks/', thanks)
 ]
