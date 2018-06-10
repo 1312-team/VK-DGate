@@ -16,7 +16,6 @@
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="https://vk.com/js/api/openapi.js?154"></script>
-
 <script type="text/javascript">
   VK.init({apiId: 6601994, onlyWidgets: true});
 </script>
@@ -68,18 +67,42 @@
 
 </div>
 
-<script type="text/javascript">
-  VK.init({
-    apiId: ВАШ_API_ID,
-    onlyWidgets: true
-  });
-</script>
-
 <div id="vk_like"></div>
 <script type="text/javascript">
 VK.Widgets.Like("vk_like", {type: "button", height: 30});
 </script>
+</section>
 
+
+
+
+
+<section id="subscribe">
+<div class="container content-section text-center">
+	<div class="row">
+        <div id="vk_groups"></div>
+            <script type="text/javascript">
+                VK.Widgets.Group("vk_groups", {mode: 4, no_cover: 1, height: "400", color1: 'FF00D0', color3: '000000'}, -346523220);
+            </script>
+	</div>
+</div>
+</section>
+
+
+
+
+<section id="description">
+    <div class="container content-section text-center">
+         <div class="row">
+                    {% for i in desc %}
+                                <tr class='success'>
+                                        <br><td>{{ i.name }}</td>
+                                        <br><td>{{ i.description }}</td>
+                                    </div>
+                                </tr>
+                                    {% endfor %}
+         </div>
+    </div>
 </section>
 
 <!-- Description section -->
