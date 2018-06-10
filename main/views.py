@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.shortcuts import redirect
 
 from .forms import GatesForm
+from .models import Gate
 
 # Create your views here.
 
@@ -16,6 +17,11 @@ def index(request):
 
 def thanks(request):
     return render(request, "thanks.html")
+
+
+def gate(request):
+    desc = Gate.objects.all()
+    return render(request, "gate.html", locals())
 
 
 def new_dgate(request):

@@ -24,5 +24,6 @@ urlpatterns = [
     path('about/', about),
     path('index/', index),
     path('new_dgate/', new_dgate),
+    path('gate/', gate),
     path('thanks/', thanks)
 ]
