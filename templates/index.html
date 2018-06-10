@@ -81,6 +81,32 @@
             <li>
 			<a href="http://127.0.0.1:8000/new_dgate">Создать новый гейт</a>
 			</li>
+            <li>
+			<a href="{% url 'social:begin' backend='vk-oauth2' %}">vk-oauth2</a>
+			</li>
+            <li>
+			<a href="/login/vk-oauth2">Auth</a>
+                <script src="http://vk.com/js/api/xd_connection.js?2" type="text/javascript"></script>
+                <script type="text/javascript">
+                    VK.init(function() {
+                            VK.addCallback("onApplicationAdded", requestRights);
+                            VK.addCallback("onSettingsChanged", onSettingsChanged);
+                        }
+                    );
+
+                    function startConnect() {
+                        VK.callMethod('showInstallBox');
+                    }
+
+                    function requestRights() {
+                        VK.callMethod('showSettingsBox', 1 + 2); // 1+2 is just an example
+                    }
+
+                    function onSettingsChanged(settings) {
+                        window.location.reload();
+                    }
+                </script>
+			</li>
 			<li>
 			<!--<a href="contact.html">Связаться С Нами</a>-->
 			</li>

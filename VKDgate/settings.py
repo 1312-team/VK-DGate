@@ -27,9 +27,36 @@ SECRET_KEY = '_t6*&ruosv!-fpvq+p+*8j!uvc37*&jwt+6(8&(3k$i5d0$n%r'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    '127.0.0.1',
     'name123-vk-dgate.7e14.starter-us-west-2.openshiftapps.com'
 ]
 
+# VK Auth
+
+SOCIAL_AUTH_VK_OAUTH2_KEY = '6479240'
+SOCIAL_AUTH_VK_OAUTH2_SECRET = '7BPfxziLQb8P1eJUTnDb'
+SOCIAL_AUTH_VK_APP_USER_MODE = 2
+
+SOCIAL_AUTH_AUTHENTICATION_BACKENDS = [
+    'social.backends.vk.VKOAuth2',
+    'social_auth.backends.contrib.vk.VKOAuth2Backend'
+    'social_auth'
+    'social_core.backends.vk.VKAppOAuth2'
+    
+    'social_core.backends.vk.VKOAuth2', # auth?
+    'django.contrib.auth.backends.ModelBackend', # auth
+]
+
+AUTHENTICATION_BACKENDS = [
+    'social.backends.vk.VKOAuth2',
+    'social_auth.backends.contrib.vk.VKOAuth2Backend'
+    'social_auth'
+    'social_core.backends.vk.VKAppOAuth2'
+
+    'social_core.backends.vk.VKOAuth2',  # auth?
+    'django.contrib.auth.backends.ModelBackend',  # auth
+]
+#VK AllAuth
 
 # Application definition
 
@@ -41,6 +68,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main',
+    'social_django', # auth
 ]
 
 MIDDLEWARE = [
@@ -51,6 +79,12 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    'social_django.middleware.SocialAuthExceptionMiddleware', # auth
+]
+
+MIDDLEWARE_CLASSES = [
+    'social_django.middleware.SocialAuthExceptionMiddleware',
 ]
 
 ROOT_URLCONF = 'VKDgate.urls'
@@ -66,6 +100,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+
+                'social_django.context_processors.backends',  # auth
+                'social_django.context_processors.login_redirect', # auth
             ],
         },
     },
