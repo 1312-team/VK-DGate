@@ -35,6 +35,15 @@
 			<li>
                 <a href="http://127.0.0.1:8000/index/"> <font color="black">Главная страница </font> </a>
 			</li>
+			<li>
+                <a href="http://127.0.0.1:8000/about"> <font color="black">О Нас</font> </a>
+			</li>
+            <li>
+                <a href="http://127.0.0.1:8000/new_dgate"> <font color="black">Создать новый гейт</font> </a>
+			</li>
+			<li>
+			<!--<a href="contact.html">Связаться С Нами</a>-->
+			</li>
 		</ul>
 	</div>
 	<!-- /.navbar-collapse -->
@@ -47,11 +56,32 @@
 <section id="about">
 <div class="container content-section text-center">
 	<div class="row">
-		<h2>Спасибо, ваш гейт был создан!</h2>
-        <h1>Ссылка: ссылка/gate/{{ cur_link }}</h1>
+		<h2>Для загрузки выполните указанные действия:</h2>
+		<div class="col-lg-8 col-lg-offset-2">
+			<button type="submit" class="save btn btn-default">Repost</button>
+		</div>
 	</div>
+
 </div>
 
+
+
+
+</section>
+
+<!-- Description section -->
+<section id="description">
+    <div class="container content-section text-center">
+         <div class="row">
+                 <p>{{descr}}</p>
+         </div>
+        <div class="col-lg-8 col-lg-offset-2">
+			<button onclick="button_link_hide()" class="btn-group">DONE</button>
+            <div id="dl_link" style="display:none;">
+              {{link}}
+            </div>
+		</div>
+    </div>
 </section>
 
 <!-- Contact Section -->
@@ -66,18 +96,6 @@
 			<p>
 				<i><a href="mailto:vkdgate_team@gmail.com" style="border-bottom:1px dashed #ccc;">vkdgate_team@gmail.com</a></i>
 			</p>
-			<!--<ul class="list-inline banner-social-buttons">
-				<li>
-				<a href="https://twitter.com/wowthemesnet" class="btn btnghost btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a>
-				</li>
-				<li>
-				<a href="https://www.facebook.com/pages/wowthemesnet/562560840468823" class="btn btnghost btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a>
-				</li>
-				<li>
-				<a href="https://plus.google.com/u/0/b/110916582192388695332/110916582192388695332/posts" class="btn btnghost btn-lg"><i class="fa fa-google-plus fa-fw"></i><span class="network-name">Google+</span></a>
-				</li>
-			</ul>
-			-->
 		</div>
 	</div>
 </div>
@@ -99,5 +117,15 @@
 <script src="{% static "js/jquery.easing.min.js" %}"></script>
 <!-- Custom Theme JavaScript -->
 <script src="{% static "js/theme.js" %}"></script>
+<!-- Show URL on button -->
+<script>
+    function button_link_hide() {
+    var x = document.getElementById("dl_link");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}</script>
 </body>
 </html>

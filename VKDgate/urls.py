@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from main.views import *
+from django.conf.urls import url, include, re_path
 
 admin.autodiscover()
 
@@ -25,5 +26,7 @@ urlpatterns = [
     path('index/', index),
     path('new_dgate/', new_dgate),
     path('gate/', gate),
-    path('thanks/', thanks)
+    path('thanks/', thanks),
+    url(r'^gate/(?P<iden>\d+)/$', gate_id)
+
 ]

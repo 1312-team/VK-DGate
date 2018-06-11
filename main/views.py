@@ -3,6 +3,7 @@ from django.shortcuts import redirect
 
 from .forms import GatesForm
 from .models import Gate
+from django.http import Http404
 
 # Create your views here.
 
@@ -16,7 +17,8 @@ def index(request):
 
 
 def thanks(request):
-    return render(request, "thanks.html")
+    cur_link = Gate.objects.count()
+    return render(request, "thanks.html", {'cur_link' : cur_link})
 
 
 def gate(request):
@@ -33,4 +35,16 @@ def new_dgate(request):
             return redirect(thanks)
     else:
         form = GatesForm()
-    return render(request, 'new_dgate.html', {'form': form})
+    return render(request, 'new_dgate.html', {'form' : form})
+
+
+def gate_id(request, iden):
+    try:
+        iden = int(iden)
+    except ValueError:
+        raise Http404()
+
+    sel_obj=Gate.objects.get(pk = iden)
+    descr=sel_obj.description
+    link=sel_obj.link
+    return render(request,'gate_id.html',{"descr" : descr, "link" : link})
